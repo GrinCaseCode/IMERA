@@ -1028,9 +1028,16 @@ body .ymaps-2-1-79-balloon__content img {
 	margin-bottom: 12px;
 }
 .footer__nav a {
+		border-bottom: 1px solid transparent;
 	color: #E1DAD0;
 }
+a.footer__title:hover,
+.footer__nav a:hover {
+	color: #fff;
+	border-color: #fff;
+}
 a.footer__title {
+			border-bottom: 1px solid transparent;
 	color: #E1DAD0;
 	display: inline-block;
 }
