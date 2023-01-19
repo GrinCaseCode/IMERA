@@ -1,0 +1,332 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1560px) {
+	body {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.header {
+		padding-top: 25px;
+	}
+	.header .logo img {
+		width: 200px;
+		height: auto;
+	}
+	.billbord {
+		padding-top: 210px;
+	}
+	.title-big {
+		font-size: 90px;
+		line-height: 83px;
+		padding-bottom: 20px;
+		max-width: 790px;
+	}
+	.descr-big {
+		font-size: 29px;
+		line-height: 37px;
+		padding-bottom: 30px;
+		max-width: 535px;
+	}
+	.image-billbord img {
+		max-width: 1400px;
+		height: auto;
+	}
+	.image-billbord::before,
+	.image-billbord img {
+		border-radius: 520px 0px 0px 0px;
+	}
+	.title-section {
+		font-size: 55px;
+		line-height: 67px;
+	}
+	.services .title-section {
+		padding-bottom: 40px;
+	}
+	.service-unit__icon {
+		width: 80px;
+		height: 80px;
+		margin-right: 20px;
+	}
+	.services {
+		padding-top: 60px;
+		padding-bottom: 50px;
+	}
+	.item-catalog__image {
+		height: 360px;
+		margin-bottom: 15px;
+	}
+	.item-catalog__title {
+		font-size: 28px;
+		line-height: 31px;
+		margin-bottom: 15px;
+	}
+	.table-features td {
+		padding: 15px 10px;
+	}
+	.feature-price {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.feature-price span {
+		font-size: 29px;
+		line-height: 32px;
+	}
+	.btn-main {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.descr-section {
+		font-size: 22px;
+		line-height: 29px;
+		padding-top: 13px;
+		padding-bottom: 30px;
+	}
+	.services-wrapper .descr-section {
+		max-width: 816px;
+	}
+	.services-wrapper {
+		padding: 34px 60px;
+		padding-bottom: 50px;
+	}
+	.item-service__title {
+		font-size: 28px;
+		line-height: 31px;
+	}
+	.item-service__content {
+		padding: 30px 30px;
+	}
+	.item-service_1, .item-service_5, .item-service_6 {
+		height: 350px;
+	}
+	.item-service {
+		height: 300px;
+	}
+	#map,
+	.swiper-entertainment {
+		margin-right: calc((100vw - 1270px) / 2* -1);
+	}
+	.swiper-entertainment .swiper-arrows {
+		padding-right: calc((100vw - 1270px)/2);
+	}
+	.contacts-block .phone-main {
+		font-size: 17px;
+		line-height: 23px;
+	}
+	#map {
+		border-radius: 0px 200px 0px 0px;
+	}
+	.item-entertainment__image {
+		width: 645px;
+		height: 410px;
+		margin-right: 30px;
+	}
+	.swiper-entertainment .swiper-slide {
+		width: 1070px;
+	}
+}
+@media only screen and (max-width : 1300px) {
+	.title-section {
+		font-size: 50px;
+		line-height: 64px;
+	}
+	.table-features table th {
+		font-size: 13px;
+		line-height: 16px;
+		padding: 9px 9px;
+	}
+	body {
+		font-size: 13px;
+		line-height: 19px;
+	}
+	.feature-price {
+		font-size: 16px;
+		line-height: 18px;
+	}
+	.feature-price span {
+		font-size: 27px;
+		line-height: 30px;
+	}
+	.item-catalog__text {
+		font-size: 16px;
+		line-height: 22px;
+		margin-bottom: 15px;
+	}
+	.item-catalog__title {
+		font-size: 25px;
+		line-height: 28px;
+		margin-bottom: 14px;
+	}
+	.item-catalog__image {
+		height: 330px;
+	}
+	.services-wrapper {
+		padding: 30px 25px;
+		padding-bottom: 25px;
+	}
+	.item-service__title {
+		font-size: 26px;
+		line-height: 30px;
+	}
+	.item-service__content {
+		padding: 25px 25px;
+	}
+	.descr-section {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	#map, .swiper-entertainment {
+		margin-right: calc((100vw - 1140px) / 2* -1);
+	}
+	.swiper-entertainment .swiper-arrows {
+		padding-right: calc((100vw - 1140px)/2);
+	}
+	.item-entertainment__image {
+		width: 635px;
+		height: 370px;
+		margin-right: 20px;
+	}
+	.swiper-entertainment .swiper-slide {
+		width: 985px;
+		margin-right: 25px;
+	}
+	.booking .title-section, .socials .title-section {
+		font-size: 49px;
+		line-height: 64px;
+	}
+	.item-form {
+		margin-bottom: 40px;
+	}
+	.contacts {
+		padding-top: 60px;
+	}
+	.contacts-block .phone-main {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.footer {
+		font-size: 13px;
+		line-height: 19px;
+		padding-top: 30px;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.title-big {
+		font-size: 75px;
+		line-height: 78px;
+		padding-bottom: 20px;
+		max-width: 767px;
+	}
+	.descr-big {
+		font-size: 26px;
+		line-height: 36px;
+		padding-bottom: 25px;
+		max-width: 510px;
+	}
+	.image-billbord img {
+		max-width: 1210px;
+	}
+	.image-billbord::before, .image-billbord img {
+		border-radius: 450px 0px 0px 0px;
+	}
+	.services .title-section {
+		padding-bottom: 20px;
+		max-width: 700px;
+	}
+	.item-catalog__image {
+		height: 405px;
+	}
+	.row_services {
+		margin: 0 -5px;
+	}
+	.row_services > div {
+		padding: 0 5px;
+	}
+	.item-service {
+		margin-bottom: 15px;
+	}
+	.item-service__content {
+		padding: 20px 15px;
+	}
+	.item-service__title {
+		font-size: 23px;
+		line-height: 30px;
+	}
+	#map, .swiper-entertainment {
+		margin-right: calc((100vw - 850px) / 2* -1);
+	}
+	.swiper-entertainment .swiper-arrows {
+		padding-right: calc((100vw - 850px)/2);
+	}
+	.item-entertainment__image {
+		width: 540px;
+		height: 330px;
+	}
+	.swiper-entertainment .swiper-slide {
+		width: 880px;
+	}
+	.booking .title-section, .socials .title-section {
+		font-size: 40px;
+		line-height: 55px;
+	}
+	.location-wrapper {
+		padding: 12px 15px;
+		padding-right: 20px;
+	}
+	.item-location::before {
+		margin-right: 12px;
+	}
+	.text-main {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.contacts-block .phone-main {
+		font-size: 11px;
+		line-height: 19px;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.footer__content {
+		display: none !important;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media (min-width: 1300px) {
+	.container {
+		max-width: 1300px;
+	}
+}
+@media (min-width: 1560px) {
+	.container {
+		max-width: 1470px;
+	}
+}

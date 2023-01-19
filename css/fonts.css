@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'AvenirNextCyr';
+	src: url('../fonts/AvenirNextCyr-Regular.eot');
+	src: url('../fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AvenirNextCyr-Regular.woff') format('woff'),
+	url('../fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AvenirNextCyr';
+	src: url('../fonts/AvenirNextCyr-Medium.eot');
+	src: url('../fonts/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AvenirNextCyr-Medium.woff') format('woff'),
+	url('../fonts/AvenirNextCyr-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AvenirNextCyr';
+	src: url('../fonts/AvenirNextCyr-Demi.eot');
+	src: url('../fonts/AvenirNextCyr-Demi.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AvenirNextCyr-Demi.woff') format('woff'),
+	url('../fonts/AvenirNextCyr-Demi.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AvenirNextCyr';
+	src: url('../fonts/AvenirNextCyr-Bold.eot');
+	src: url('../fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AvenirNextCyr-Bold.woff') format('woff'),
+	url('../fonts/AvenirNextCyr-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AvenirNextCyr';
+	src: url('../fonts/AvenirNextCyr-Heavy.eot');
+	src: url('../fonts/AvenirNextCyr-Heavy.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AvenirNextCyr-Heavy.woff') format('woff'),
+	url('../fonts/AvenirNextCyr-Heavy.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Forum';
+	src: url('../fonts/Forum.eot');
+	src: url('../fonts/Forum.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Forum.woff') format('woff'),
+	url('../fonts/Forum.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
