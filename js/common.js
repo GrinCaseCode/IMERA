@@ -119,6 +119,16 @@ on: {
 	} }
 });
 	});
+
+	{
+		if ($(window).width() < 992) { 
+			$(".footer__title").click(function() {
+				$(this).toggleClass("active");
+				$(this).next(".footer__content").slideToggle(200);
+			});
+		}
+	}
+
 	//слайдер
 
 	$('.slider').slick({
