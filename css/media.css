@@ -1742,6 +1742,9 @@
 	.item-offer__image {
 		height: 250px;
 	}
+	.row_features > div:nth-child(1) .list-features {
+		columns: 1;
+	}
 }
 
 /* Custom, iPhone Retina */
