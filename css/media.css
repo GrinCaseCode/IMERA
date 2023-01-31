@@ -324,6 +324,18 @@
 	.menu-dropdown {
 		background-size: 540px auto;
 	}
+	.status-offer {
+		font-size: 27px;
+		line-height: 31px;
+		padding: 7px 36px;
+		padding-right: 25px;
+	}
+	.item-offer__image {
+		height: 350px;
+	}
+	.item-offer__content {
+		padding: 28px 35px;
+	}
 }
 
 
@@ -633,6 +645,9 @@
 	.menu-dropdown .list-social {
 		margin-left: -40px;
 	}
+	.item-offer__image {
+		height: 300px;
+	}
 }
 
 
@@ -807,6 +822,15 @@
 	}
 	.menu-dropdown .list-social {
 		margin-left: 25px;
+	}
+	.item-offer__content {
+		padding: 20px 20px;
+	}
+	.status-offer {
+		font-size: 22px;
+		line-height: 30px;
+		padding: 7px 30px;
+		padding-right: 25px;
 	}
 }
 
@@ -1211,15 +1235,24 @@
 		transform: rotate(-90deg);
 	}
 	.menu-dropdown {
-    padding-top: 10px;
-}
-.menu-dropdown .logo {
-	margin-bottom: 20px;
-}
-.menu-dropdown .list-social {
-	margin: 0;
-	margin-top: 20px;
-}
+		padding-top: 10px;
+	}
+	.menu-dropdown .logo {
+		margin-bottom: 20px;
+	}
+	.menu-dropdown .list-social {
+		margin: 0;
+		margin-top: 20px;
+	}
+	.item-offer {
+		margin-top: 25px;
+	}
+	.page-offers .pager {
+		margin-top: 30px;
+	}
+	.page-offers {
+		padding-bottom: 40px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -1490,6 +1523,18 @@
 	.page-service .image-billbord::before {
 		border-radius: 270px 0px 0px 0px;
 	}
+	.item-offer__image::after {
+		height: 120px;
+	}
+	.item-offer__image {
+		height: 280px;
+	}
+	.status-offer {
+		font-size: 20px;
+		line-height: 28px;
+		padding: 7px 20px;
+		padding-right: 25px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1693,6 +1738,9 @@
 	.service-feature {
 		padding: 25px 25px;
 		padding-right: 25px;
+	}
+	.item-offer__image {
+		height: 250px;
 	}
 }
 
