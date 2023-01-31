@@ -1745,6 +1745,12 @@
 	.row_features > div:nth-child(1) .list-features {
 		columns: 1;
 	}
+	.head-services {
+		padding-top: 25px;
+	}
+	.row_features {
+		margin-bottom: 15px;
+	}
 }
 
 /* Custom, iPhone Retina */
