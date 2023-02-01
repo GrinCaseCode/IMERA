@@ -363,7 +363,7 @@ on: {
     scrollTrigger: {
       trigger: triggerElement,
       // trigger element - viewport
-      start: "-=50%",
+      start: "-=30%",
       end: "bottom bottom",
       scrub: 1
     }
