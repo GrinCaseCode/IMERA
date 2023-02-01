@@ -30,10 +30,6 @@
 		max-width: 1400px;
 		height: auto;
 	}
-	.image-billbord::before,
-	.image-billbord img {
-		border-radius: 520px 0px 0px 0px;
-	}
 	.title-section {
 		font-size: 55px;
 		line-height: 67px;
