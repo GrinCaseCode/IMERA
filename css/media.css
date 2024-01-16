@@ -1926,6 +1926,9 @@
 		padding: 30px 15px;
 		padding-bottom: 10px;
 	}
+	.page-cafe .image-billbord::before {
+		left: -20px;
+	}
 }
 
 
