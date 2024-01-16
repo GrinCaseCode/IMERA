@@ -1,5 +1,49 @@
 $(document).ready(function() {
 
+	/*cafe bar*/
+	$('.swiper-three').each(function(){
+		var slides = $(this).find(".swiper-slide");
+		var fraction = $(this).find(".swiper-fraction");
+		var slideCount = slides.length;
+		fraction.html(`1 / ${slideCount}`);
+
+		var swiper = new Swiper(this, {
+			slidesPerView: 3,
+			spaceBetween: 30,
+
+
+		// Navigation arrows
+		navigation: {
+			nextEl: (this, ".swiper-button-next"),
+			prevEl: (this, ".swiper-button-prev")
+		},
+		breakpoints: {
+			0: {
+				slidesPerView: 1,
+				slidesPerGroup: 1,
+				spaceBetween: 0,
+			},
+			// when window width is >= 320px
+			768: {
+				slidesPerView: 2,
+				slidesPerGroup: 1,
+				spaceBetween: 20,
+			},
+			// when window width is >= 640px
+			992: {
+				slidesPerView: 3,
+				spaceBetween: 30,
+			}
+		},
+		on: {
+			slideChange: () => {
+				fraction.html(`${swiper.realIndex + 1} / ${slideCount}`);
+			} }
+		});
+	});
+
+	/*end cafe bar*/
+
 	setInterval(function(){
 		$(".preloader__second").fadeIn(300);
 	}, 500);
@@ -103,7 +147,7 @@ setInterval(function(){
 
 		var swiper = new Swiper(this, {
 			slidesPerView: "auto",
-			mousewheel: true,
+			//mousewheel: true,
 
 
   // Navigation arrows
